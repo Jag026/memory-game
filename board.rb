@@ -105,5 +105,10 @@ class Memory
      end
 end
 
-game = Memory.new()
-game.new_game
+
+
+
+if $PROGRAM_NAME == __FILE__
+    game = Memory.new()
+    game.new_game
+end
